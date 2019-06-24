@@ -8,7 +8,7 @@ A simple voting app using Vue.JS and Sass, deployed on AWS with a pipeline to Gi
 Name and pixel art inspired by The Big Lebowski
 Many thanks to the Vue community for being so awesome and knowledgeable.
 Chart not working yet. It's a work in progress.
-
+[Link to AWS deployed website](https://the-big-lepollski.s3-eu-west-1.amazonaws.com/index.html)
 
 ## Requirements:
 
@@ -30,6 +30,10 @@ Chart not working yet. It's a work in progress.
 ## Project setup
 ```
 npm install
+```
+In folder for the Vue UI interface in browser
+```
+vue ui
 ```
 
 ### Compiles and hot-reloads for development and sass-watch

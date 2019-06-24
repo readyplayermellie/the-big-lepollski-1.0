@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy-s3": "aws s3 sync --profile gitlabci ./dist/ s3://the-big-lepollski --region eu-west-1"
   },
   "dependencies": {
     "core-js": "^2.6.5",

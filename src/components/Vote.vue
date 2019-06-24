@@ -38,7 +38,7 @@
             <div class="option-div">
                 <form id="vote-form">
                     <ul id="list">
-                        <li v-for="option in options" class="list-item">
+                        <li v-for="option in options" :key="option" class="list-item">
                             <input type="radio" name="radio-options" checked>
                             <p class="p-option"> {{option.title}} </p>
                             <button @click="removeOption(option)" type="button" class="btn-remove">X</button> 
@@ -62,11 +62,7 @@
             </div>
 
             <div class="options-div">
-                <!-- <ul id="list">
-                    <li v-for="option in options" class="list-item">
-                        <p class="resultItem"> {{option.title}} {{ voteCount }} </p>
-                    </li>
-                </ul> -->
+                <img id="sun-glasses-guy" src="../assets/guy-sun-on.svg" alt="sun glasses guy">
             </div>
             <div class="button-div">   
                 
@@ -197,6 +193,9 @@ export default {
     margin: 20px;
 }
 
+#sun-glasses-guy {
+    height: 220px;
+}
 
 
 </style>
