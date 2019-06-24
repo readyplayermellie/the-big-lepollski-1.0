@@ -44,7 +44,8 @@ body {
     margin: 10px 25px 10px 25px;
     letter-spacing: 4px;
   }
-  h2 {
+  h2,
+  #p-vote-count {
     font-size: 24px;
     text-align: center;
     letter-spacing: 4px;

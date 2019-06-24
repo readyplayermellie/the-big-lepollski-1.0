@@ -57,7 +57,8 @@
 
             <div class="question-div">
                 <p class="p-question"> {{ question }} </p>
-                <p id="p-total" >Total votes: {{ count }}</p>
+                <p id="p-total" >Total votes:</p>
+                <p id="p-vote-count"> {{ count }}</p>
             </div>
 
             <div class="options-div">
