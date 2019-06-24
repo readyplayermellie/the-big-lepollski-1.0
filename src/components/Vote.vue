@@ -114,7 +114,7 @@ export default {
             } else {
                 this.answer.display = true;
                 this.disabled.add = true;
-            };
+            }
         },
         removeOption(option) {
             const optionIndex = this.options.indexOf(option);
@@ -128,7 +128,7 @@ export default {
             } else {
                 this.minimum = false;
                 this.count += 1;
-            };
+            }
         },
         resetPage() {
             this.answer.display = true;

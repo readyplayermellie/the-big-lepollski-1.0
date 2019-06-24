@@ -1,33 +1,29 @@
-# the-big-lepollski
+# The Big Lepollski
 
-sass --watch scss:css
+Try out project for new assignment
+
+## the App
+
+A simple voting app using Vue and Sass, deployed on AWS with a pipeline to Github
+
+## Requirements:
+
+* [X] Change poll question
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development and sass-watch
 ```
 npm run serve
 ```
-
+```
+sass --watch scss:css
+```
 ### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
